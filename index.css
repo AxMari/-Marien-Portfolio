@@ -31,11 +31,41 @@ header>h2 {
 }
 
 nav {
+	
 	text-align: left;
 	padding-left: 15px;
 	font-size: 15px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid #bdbdbd;
+	border-bottom: 1px solid #bdbdbd;	
+}
+
+nav > ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #9dcafb;
+	border-radius: 25px;
+}
+
+nav li{
+	float: left;
+}
+
+nav a {
+	display: block;
+	color:white;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	background-color: #064a93;
+}
+
+nav a:active {
+	color:;
 
 }
 
@@ -69,11 +99,11 @@ footer > a:visited {
 
 footer > a:hover {
 	text-decoration: none;
-	color:white;
+	color:#ff8533;
 
 }
 
 footer > a:active {
 	text-decoration: none;
-	color:#ff8533;
+	color:white;
 }
