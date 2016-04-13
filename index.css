@@ -1,25 +1,34 @@
 html {
-	margin: auto;
+	
 	width:100%;
-	font-family: sans-serif;
+	font-family: sans-serif;	
+	background-image: url(images/background2.jpg);
 }
 
 body {
 	background: #eff1f5;
 	background-repeat: repeat;
 	width: 650px;
+	opacity: 0.9;	
+	position:center;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 20px 15px 20px;
+	border-radius: 15px
 }
 
 header {
 	text-align: center;
 	width:600px;
-	color: black;
+	color: white;
 	padding-top: 20px;
-	background-image: url(images/background.jpg);
+	background-image: url(images/Chicago.jpg);
 	opacity: 4.0;
 	padding-bottom: 10px;
 	margin:30px 30px 30px 30px;
-	border: 2px solid black;
+	border: 2px solid #595959;
 	border-radius: 50px;
 }
 
@@ -28,12 +37,11 @@ header>h2 {
 	margin-bottom: -10px;
 }
 
-nav {
-	
+nav {	
 	text-align: left;
 	padding-left: 15px;
 	font-size: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	border-bottom: 1px solid #bdbdbd;	
 }
 
@@ -86,14 +94,15 @@ nav a:active {
 	padding-left: 100px;
 }
 
+#GitHub {}
+
 footer {
 	text-align: center;
 	font-weight: bold;
 	font-size: 12px;
-	padding: 30px 0px 30px 0px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 	width: 650px;
-	
-
 }
 
 footer > a:link {
