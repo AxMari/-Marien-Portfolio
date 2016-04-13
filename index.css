@@ -2,14 +2,13 @@
 body {
 	font-family: sans-serif;	
 	background-image: url(images/background2.jpg);
-	
 	background-repeat: repeat;
 	
 }
 
 #container {
 	width: 85%;
-	background: rgba(239, 241, 245, 0.9);	
+	background: rgba(239, 241, 245, 0.8);	
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px 20px 15px 20px;
