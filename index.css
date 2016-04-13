@@ -1,19 +1,17 @@
 html {
-	text-align: center;
+	margin: auto;
+	width:100%;
 	font-family: sans-serif;
-
-
 }
 
 body {
 	background: #eff1f5;
 	background-repeat: repeat;
+	width: 650px;
 }
 
-
-
 header {
-	margin:auto;
+	text-align: center;
 	width:600px;
 	color: black;
 	padding-top: 20px;
@@ -23,17 +21,15 @@ header {
 	margin:30px 30px 30px 30px;
 	border: 2px solid black;
 	border-radius: 50px;
-
 }
 
 header>h2 {
 	font-size: 200%;
 	margin-bottom: -10px;
-
 }
 
 nav {
-	width: 650px;
+	
 	text-align: left;
 	padding-left: 15px;
 	font-size: 15px;
@@ -68,8 +64,6 @@ nav a:hover {
 
 nav a:active {
 	color: #064a93;
-
-
 }
 
 #introheader {
@@ -93,9 +87,13 @@ nav a:active {
 }
 
 footer {
+	text-align: center;
 	font-weight: bold;
 	font-size: 12px;
 	padding: 30px 0px 30px 0px;
+	width: 650px;
+	
+
 }
 
 footer > a:link {
