@@ -1,4 +1,5 @@
 
+
 body {
 	font-family: sans-serif;	
 	background-image: url(images/background2.jpg);
@@ -22,7 +23,7 @@ header {
 	color: white;
 	padding-top: 20px;
 	background-image: url(images/Chicago2.jpg);
-	opacity: 4.0;
+	opacity: 1.0;
 	padding-bottom: 10px;
 	margin:30px 15% 30px 15%;
 	border: 2px solid #595959;
@@ -34,16 +35,18 @@ header>h2 {
 	margin-bottom: -10px;
 }
 
-nav {	
+
+
+.fullnav {	
 	text-align: left;
 	padding-left: 5%;
 	padding-right: 5%;
 	font-size: 15px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #bdbdbd;	
+		
 }
 
-nav > ul {
+.fullnav > ul {
 	list-style-type: none;
 	margin:0;
 	padding: 0;
@@ -52,11 +55,11 @@ nav > ul {
 	border-radius: 25px;
 }
 
-nav li{
+.fullnav li{
 	float: left;
 }
 
-nav a {
+.fullnav a {
 	display: block;
 	color:white;
 	padding: 14px 16px;
@@ -64,11 +67,16 @@ nav a {
 
 }
 
-nav a:hover {
+.mini {
+	display:none;
+}
+
+
+.fullnav a:hover {
 	background-color: #064a93;
 }
 
-nav a:active {
+.fullnav a:active {
 	color: #064a93;
 }
 
@@ -82,6 +90,7 @@ nav a:active {
 .intro {
 	text-align: left;
 	padding: 20px 20px 20px 25px;
+	border-top: 1px solid #bdbdbd;
 	border-bottom: 1px solid #bdbdbd;
 }
 
@@ -109,11 +118,17 @@ nav a:active {
 	text-align: center;
 	display: inline-block;
 	position: relative;
-	width: 200px;	
+	width: 25%;
 	margin: 3%;
 	font-size: 115%;
 	font-weight: bold;
 	color: #1b3056;
+}
+
+.repolab > img {
+	max-width: 100%
+	height: auto;
+
 }
 
 #par {
@@ -152,3 +167,87 @@ footer > a:active {
 	text-decoration: none;
 	color:white;
 }
+
+@media (max-width:1000px) {
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+   
+}
+
+@media (max-width:800px) {
+	.repolab {
+		width: 40%;
+	}
+}
+
+
+
+
+@media (max-width: 575px) {
+	.repolab {
+		width: 80%;
+	}
+}
+
+@media(max-width: 449px){
+	.fullnav {
+		display: none;
+	}
+
+	.mini1 {
+
+	}
+
+	.mini {	
+		display: inline-block;		
+		text-align: center;
+		padding-left: 20%;
+		padding-right: 30%;
+		width:176px;
+		position: center;
+		font-size: 15px;
+		padding-bottom: 20px;
+		
+	}
+
+	.mini > ul {
+		list-style-type: none;
+		margin:0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #9dcafb;
+		border-radius: 25px;
+	}
+
+	.mini li{
+		float: left;
+		width:88px;
+		height: 45px;
+	}
+
+	.mini a {
+		display: block;
+		color:white;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	.mini a:hover {
+		background-color: #064a93;
+	}
+
+	.mini a:active {
+		color: #064a93;	
+}
+
+@media (max-width: 400px) {
+	.bulktext > img {
+		display: none;
+	}
+
+}
+
+
