@@ -67,11 +67,6 @@ header>h2 {
 
 }
 
-.mini {
-	display:none;
-}
-
-
 .fullnav a:hover {
 	background-color: #064a93;
 }
@@ -193,15 +188,12 @@ footer > a:active {
 }
 
 @media(max-width: 449px){
+
 	.fullnav {
-		display: none;
-	}
-
-	.mini1 {
 
 	}
 
-	.mini {	
+	.fullnav {	
 		display: inline-block;		
 		text-align: center;
 		padding-left: 20%;
@@ -213,7 +205,7 @@ footer > a:active {
 		
 	}
 
-	.mini > ul {
+	.fullnav > ul {
 		list-style-type: none;
 		margin:0;
 		padding: 0;
@@ -222,24 +214,24 @@ footer > a:active {
 		border-radius: 25px;
 	}
 
-	.mini li{
+	.fullnav li{
 		float: left;
 		width:88px;
 		height: 45px;
 	}
 
-	.mini a {
+	.fullnav a {
 		display: block;
 		color:white;
 		padding: 14px 16px;
 		text-decoration: none;
 	}
 
-	.mini a:hover {
+	.fullnav a:hover {
 		background-color: #064a93;
 	}
 
-	.mini a:active {
+	.fullnav a:active {
 		color: #064a93;	
 }
 
